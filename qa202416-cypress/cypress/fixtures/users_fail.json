@@ -1,0 +1,34 @@
+{
+    "users": [
+        {
+            "user":"invalid_user",
+            "password":"secret_sauce",
+            "message": "Epic sadface: Username and password do not match any user in this service" 
+        },
+        {
+            "user": "standard_user",
+            "password":"secret_sauce",
+            "message": "Epic sadface: Username and password do not match any user in this service"
+        },
+        {
+            "user":"locked_out_user",
+            "password":"secret_sauce",
+            "message" : "Epic sadface: Sorry, this user has been locked out."
+        },
+        {
+            "user":"",
+            "password":"senha",
+            "message" : "Epic sadface: Username is required"
+        },
+        {
+            "user":"usuario",
+            "password":"",
+            "message":"Epic sadface: Username is required"
+        },
+        {
+            "user":"",
+            "password":"",
+            "message":"Epic sadface: Username is required"
+        }
+    ]
+}
